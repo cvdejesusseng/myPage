@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Moderna</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS externo -->
+</head>
+<body>
+    <header>
+        <h1>Carlos Vinícius</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="sobre">
+        <h2>Sobre</h2>
+        <div class="sobre-imagem">
+            <img src="Imagens/minhaImagem.jpg" alt="foto de carlos vinícius">
+        </div>
+        <p>Policial militar da Bahia, atualmente na Companhia Independente de Policiamento Especializado - Litoral Norte (caatinga), nascido em 10 de fevereiro de 1989, em Itabaiana-SE. 
+            Adepto à prática esportiva, sempre muito competitivo, em busca de superação e local de destaque. Aos 28 anos, agraciado com o título de cidadão olindinense, 
+            cidade baiana a qual servi por 9 anos. Sou casado e tenho uma filha de 3 anos chamada Marina.
+        </p>
+    </section>
+    <section id="formacao">
+        <h2>Formação</h2>
+        <p>Curso Engenharia de Computação e Análise e Desenvolvimento de Sistemas na UNINTER, ambos com andamento em 50%. Meu inglês ainda é básico,
+            consigo ler e escrever bem, porém sinto dificuldade na compreensão da fala. Tenho diversos cursos na área de elétrica e eletrônica, 
+            recentemente fui remanejado para a área de TI da minha unidade, com isso, posso por em prática o que aprendo na UNINTER.
+        </p>
+    </section>
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <p>Aqui estão algumas das minhas Atividades Práticas realizadas ao longo da minha vida acadêmica.</p>
+        <video controls style="width: 30%; display: block; margin: 0 auto;">
+            <source src="Videos/hand.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+        <ul>
+            <li><a href="PDFs/EstruturaDeDados.pdf" download>Estrutura de Dados</a></li>
+            <li><a href="PDFs/MecanicaEResistenciaDosMateriais.pdf" download>Mecânica e Resistência dos Materiais</a></li>
+            <li><a href="PDFs/DesignDeSistemas.pdf" download>Design de Sistemas</a></li>
+            <li><a href="PDFs/DesignDeInteracao.pdf" download>Design de Interação</a></li>
+        </ul>
+    </section>
+    <section id="contato">
+        <h2>Contato</h2>
+        <form action="#" method="post">
+            <table>
+                <tr>
+                    <th><label for="nome">Nome:</label></th>
+                    <td><input type="text" id="nome" name="nome"></td>
+                </tr>   
+                <tr>
+                    <th><label for="email">E-mail:</label></th>
+                    <td><input type="email" id="email" name="email"></td>
+                </tr>  
+                <tr>
+                    <th><label for="msg">Digite sua Mensagem:</label></th>
+                    <td><textarea name="msg" id="msg" cols="40" rows="5"></textarea></td>
+                </tr> 
+                <tr>
+                    <td><input type="submit" value="Enviar"></td>
+                </tr> 
+            </table>
+        </form>
+        <div class="sobre-imagem">
+        <a href="https://www.instagram.com/cvdejesuss/"><img src="Imagens/cvdejesuss_qr.png"></a>
+        </div>
+    </section>
+    <br><br><br><br><br>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
